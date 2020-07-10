@@ -13,10 +13,10 @@ Creating a class that will
 
 
 class database_OOP:
-    server = secretfile.server
-    database = secretfile.database
-    username = secretfile.username
-    password = secretfile.password
+    server = secret_file.server
+    database = secret_file.database
+    username = secret_file.username
+    password = secret_file.password
 
     # this method is specifically for establishing a connection
     def establish_connection(self):
